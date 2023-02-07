@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #037ad5;
+}
+
+.cajadatos{
+    text-align: center;
+    padding: 10px 8px 10px 8px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(0 0 0.2);
+    background-color: #3da0eb;
+}
+
+.h1{
+    color: #fff;
+    font-size: 32px;
+}
+
+.caja-Dh{
+    color:#fff;
+    font-size: 29px ;
+}
+
+.b1{
+    margin-top: 10px;
+    color:#fff;
+    padding: 9px 7px 9px 7px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    background-color: #037ad5; 
+}
+.b1:hover{
+    background-color: #96c4e7;
+    color: black;
+}
