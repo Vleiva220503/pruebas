@@ -3,41 +3,42 @@
     box-sizing: border-box;
 }
 
-.contenedor{
+.tarjeta{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     height: 100vh;
-    background-color: #037ad5;
+    background-color: #e84118;
 }
 
-.cajadatos{
+.datos{
     text-align: center;
     padding: 10px 8px 10px 8px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgb(0 0 0.2);
-    background-color: #3da0eb;
+    background-color: #e2440f;
 }
 
 .h1{
-    color: #fff;
+    color: black;
     font-size: 32px;
 }
 
-.caja-Dh{
+.Dh{
     color:#fff;
     font-size: 29px ;
 }
 
 .b1{
     margin-top: 10px;
-    color:#fff;
+    color:black;
     padding: 9px 7px 9px 7px;
     border-radius: 5px;
     border: none;
     font-size: 20px;
     outline: none;
-    background-color: #037ad5; 
+    background-color: #e4d5d5; 
+    margin: 10px;
 }
 .b1:hover{
     background-color: #96c4e7;
