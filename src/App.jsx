@@ -1,25 +1,38 @@
-
+import Boton from "./components/Boton";
 
 const App = () => {
-  const c = "C";
-  const a = "C#";
-  const e = "JS";
-  const f = "C++";
-  const t = "Java";
-
+  const c = "correo";
+  const p = "password";
 
   return (
-    <div className="tarjeta">
-      <div className="datos">
-      <h1  className="h1">Lenguaje de Programacion</h1>
-        <div className="Dh">
-        <button className="b1">{c}</button>
-        <button className="b1">{a}</button>
-        <button className="b1">{e}</button>
-        <button className="b1">{f}</button>
-        <button className="b1">{t}</button>
+    <div className="contenedor">
+      <h2 className="l">Empresa</h2>
+      <p className="l">--Ingrese sus credenciales--</p>
+      <form id="forma" name="forma" method="POST">
+        <div className="p">
+          <input
+            className="c"
+            placeholder="Correo"
+            type="text"
+            id="correo"
+            name="correo"
+            required="true"
+          />
         </div>
-      </div>
+
+        <div className="p">
+          <input
+            className="c"
+            placeholder="Contraseña"
+            type="password"
+            id="password"
+            name="password"
+            required="true"
+          />
+        </div>
+
+        <button className="b1">Iniciar Sesion</button>
+      </form>
     </div>
   );
 };
